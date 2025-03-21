@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funny Password Validator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Funny Password Validator</h1>
+        <input type="text" id="passwordInput" placeholder="Please enter your password">
+        <div class="rules">
+            <div id="rule1">First letter must be CAPITAL.</div>
+            <div id="rule2">5 latters must small latters. </div>
+            <div id="rule3">Add in 2 numbers</div>
+            <div id="rule4">2 emojies required </div>
+            
+            <div id="rule6"> Messi or Ronaldo?</div>
+            <div id="rule7">Solve this: 8 + 5 = ?</div>
+            <div id="rule5"> required "f***" 👈 at end</div>
+        </div>
+        <p id="message"></p>
+        <!-- Loading Animation -->
+        <div id="loading" class="loading">
+            <div class="loader"></div>
+            <p>Loading...</p>
+        </div>
+        <!-- Emoji Overlay -->
+        <div id="emojiOverlay" class="emoji-overlay"></div>
+    </div>
+   
+    <audio id="soundEffect" src="supo.wav"></audio>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
